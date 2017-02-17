@@ -1,0 +1,18 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "rules": {
+    "camelcase": 0,
+    "max-len": 1,
+    "no-use-before-define": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "import/extensions": [2, "never", { "js": "never", "json": "never"}],
+    "import/no-extraneous-dependencies": [0, {"devDependencies": ['**/*.spec.js', '**/*.test.js']}]
+  },
+  "plugins": [
+    "react"
+  ],
+  "globals": {
+    "__DEV__": true,
+  }
+}

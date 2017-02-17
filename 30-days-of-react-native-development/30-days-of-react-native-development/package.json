@@ -1,0 +1,22 @@
+{
+  "name": "ThirtyDaysOfReactNative",
+  "version": "0.0.1",
+  "private": true,
+  "author": "fangwei716",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "gl-react": "^2.2.8",
+    "gl-react-native": "^2.34.0",
+    "react": "^15.3.2",
+    "react-native": "^0.34.1",
+    "react-native-gesture-password": "^0.2.0",
+    "react-native-linear-gradient": "^1.5.13",
+    "react-native-scrollable-tab-view": "^0.6.0",
+    "react-native-swipe-cards": "0.0.9",
+    "react-native-swiper": "^1.4.9",
+    "react-native-vector-icons": "^2.0.3",
+    "react-native-video": "^0.9.0"
+  }
+}
